@@ -12,3 +12,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.button{
+
+  background-color: rgb(67, 70, 67); /* Green */
+  width: 100%;
+  border: none;
+  color:white;
+  font-size: 20px;
+}
+
+.image{
+  font-size: 40px;
+  
+  align-items: center;
+  display: flex;
+  letter-spacing: 20px;
+  justify-content: center;
+  opacity: 0.8;
+  height: 1000px;
+  
+  background-size:cover;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Bk-yuiJzio1rqq7h/hacker-in-hood-cracking-code-using-computers-in-dark-room_bry3lkyxg_thumbnail-full01.png");
+  background-repeat:no-repeat
+  
+}
+.image:hover {
+  opacity: 1.0;
+  /* For IE8 and earlier */
+}
+
+.text{
+  height: 70%;
+  width: 100%
+}
+
+.fa {
+  font-size:30px;
+  letter-spacing: 30px;
+
+}
+
+.fa:hover{
+
+  color: aqua
+}
+.about{
+   height:1000px;
+   background-color:  rgb(59, 61, 59);
+} 
+.block{
+  block-size:80%;
+  justify-content: center;
+  display: inline-block;
+ 
+  width:70%;
+}
+img {
+   border-radius: 100%;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(9, 183, 247, 0.5);
+}
+
